@@ -1,0 +1,65 @@
+server:
+  port: 8003     # 톰캣 포트
+  servlet:
+    context-path: /
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+    
+
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+      
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://minju.cuv7xlg7mith.ap-northeast-2.rds.amazonaws.com/toyou?serverTimezone=Asia/Seoul
+    username: admin
+    password: Alswn9813!!
+    hikari:
+      connection-timeout: 20000
+      minimum-idle: 10
+      maximum-pool-size: 5
+      idle-timeout: 10000
+      max-lifetime: 1000
+      auto-commit: true     
+  jpa:
+    open-in-view: false  
+    hibernate:
+      ddl-auto: update
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+      use-new-id-generator-mappings: false
+    show-sql: true
+    properties:
+      hibernate.format_sql: true
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: toyouemail123@gmail.com
+    password: toyou5470!
+    properties:
+      mail:
+        smtp:
+          starttls:
+            enable: true
+            required: true
+          auth: true
+          connectiontimeout: 5000
+          timeout: 5000
+          writetimeout: 5000
+          
+  jackson:
+    serialization:
+      fail-on-empty-beans: false
+
+
+
+
+toyou:
+  key: toyou1234!
+
+
