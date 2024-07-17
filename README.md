@@ -4,14 +4,14 @@
 
 ## Skill
 
-Java
-SpringBoot
-Spring Security
-Spring JPA
-PyThon Selenium
-Elastic search
-Logstash
-Kibana
-AWS RDS
-AWS EC2
+- Java
+- SpringBoot
+- Spring Security
+- Spring JPA
+- PyThon Selenium
+- Elastic search
+- Logstash
+- Kibana
+- AWS RDS
+- AWS EC2
 
