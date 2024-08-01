@@ -8,7 +8,7 @@
 - SpringBoot
 - Spring Security
 - Spring JPA
-- PyThon Selenium
+- Python Selenium
 - Elastic search
 - Logstash
 - Kibana
